@@ -26,7 +26,6 @@ func main() {
 		go func(link string) {
 			time.Sleep(5 * time.Second)
 			checkLink(link, c)
-			fmt.Println("\n")
 		}(l)
 	}
 }
